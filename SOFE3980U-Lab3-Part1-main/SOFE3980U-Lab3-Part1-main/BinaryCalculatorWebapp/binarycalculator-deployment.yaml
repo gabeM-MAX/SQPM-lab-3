@@ -13,7 +13,7 @@ spec:
         app: binarycalculator
     spec:
       containers:
-        - image: binarycalculator
+        - image: us-central1-docker.pkg.dev/sqpm-lab-3-490104/sofe3980u/binarycalculator
           name: binarycalculator
           ports:
             - containerPort: 8080
